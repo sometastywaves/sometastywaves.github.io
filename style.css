@@ -1,0 +1,18 @@
+#content {
+ max-width: 500px;   
+}
+header {
+  background-color: navy;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: navy;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+main {
+color: black;
+}
