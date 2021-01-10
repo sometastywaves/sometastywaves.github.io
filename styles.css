@@ -13,18 +13,20 @@
  color: black;
  margin-left: 5px;
  }
- h2  {border-bottom: 2px solid grey;}
- .front-pic{
+ 
+h2  {border-bottom: 2px solid grey;}
+ 
+.front-pic{
  width: 25%;
   float: right;
  }
- footer {
+footer {
    background-color: navy;
    border-radius: 5px;
    color:white;
    padding: 10px;
    text-align: center;
  }
- .footer-link
+.footer-link
  {color:yellow;}
  
