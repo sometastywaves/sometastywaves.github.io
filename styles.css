@@ -1,32 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Roboto+Slab&display=swap');
 #content {
-  max-width: 600px; 
- margin: auto;
- }
- header {
-   background-color: navy;
-   border-radius: 5px;
-   color: white;
-   padding: 5px;
- }
- 
- main {
- color: black;
- margin-left: 5px;
- }
- 
+ max-width: 600px; 
+margin: auto;
+}
+header {
+  background-color: navy;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  font-family: 'Kufam', cursive;
+}
+
+main {
+color: black;
+margin-left: 5px;
+font-family: 'Roboto Slab', serif;
+}
+
 h2  {border-bottom: 2px solid grey;}
- 
+
 .front-pic{
- width: 25%;
-  float: right;
- }
-footer {
-   background-color: navy;
-   border-radius: 5px;
-   color:white;
-   padding: 10px;
-   text-align: center;
- }
+width: 25%;
+float:right;
+}
+footer { 
+  background-color: navy;
+  border-radius: 5px;
+  color:white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
 .footer-link
- {color:yellow;}
- 
+{color:yellow;}
