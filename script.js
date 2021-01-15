@@ -1,0 +1,1 @@
+document.getElementById("timework").innerHTML = document.lastModified;
