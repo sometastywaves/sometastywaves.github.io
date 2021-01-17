@@ -54,7 +54,7 @@ color:white;
 font-family: 'Prompt', sans-serif;
 }
 img {
-width:40%;
+max-width:35%;
 }
 p {color:white;
 text-align:justify;
