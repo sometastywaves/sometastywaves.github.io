@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Prompt&display=swap');
+
+.dcontent { 
+margin: auto;
+}
+.design-grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 1em;
+}    
+.designhead1 {
+grid-column:1/1;
+}
+.designtext1{
+grid-column:1/1;
+padding:3px;
+}
+.designpic1 {
+grid-column:1/1;
+}
+.designhead2{
+grid-column:2/2;
+}
+.designtext2{
+grid-column:2/2;
+padding:3px;
+}
+.designpic2{
+grid-column:2/2;
+}
+.designhead3{
+grid-column:3/3;
+}
+.designtext3{
+grid-column:3/3;
+padding:3px;
+}
+.designpic3{
+grid-column:3/3;
+grid-row:3/3; 
+}
+header {
+border: solid 5px indigo;
+border-radius: 5px;
+padding-left:10px;
+margin-bottom:10px;
+background-color:indigo;
+}
+h1{
+color:white;
+font-family: 'Prompt', sans-serif;}
+h2{
+color:white;
+font-family: 'Prompt', sans-serif;
+}
+p {color:white;
+text-align:justify;
+font-family: 'Signika', sans-serif;
+}
+.weblink {
+color:white;
+float: center;
+}
+.dgroup1 {
+border: solid 5px slateblue;
+border-radius: 5px;
+padding: 5px;
+background-color:slateblue;
+}
+.dgroup2 {
+border: solid 5px slateblue;
+border-radius: 5px;
+padding: 5px;
+background-color:slateblue;
+}
+.dgroup3 {
+border: solid 5px slateblue;
+border-radius: 5px;
+padding: 5px;
+background-color:slateblue;
+}
+footer{
+border: solid 5px indigo;
+border-radius: 5px;
+padding-left:10px;
+margin-top:10px;
+background-color:indigo;
+}
+.footer-link{
+color:yellow;}
