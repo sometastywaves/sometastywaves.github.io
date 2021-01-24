@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Shanti&display=swap');
+.content3 {
+width: 950px;
+margin: auto ;
+padding: 1em;
+}
+body {
+background-color: #FFDD4A;
+}
+header {background-color: #094074;
+border: solid 5px #094074;
+border-radius: 5px;
+margin-bottom: 25px;
+font-family: 'Shanti', sans-serif;
+}
+main{
+background-color: #094074;
+margin: auto;
+border: solid 5px #094074;
+border-radius: 5px;
+}
+h1{
+color: white; 
+}
+h2{
+color:white;
+background-color: #3C6997;
+font-family: 'Shanti', sans-serif;
+}
+h3{
+color:white;
+font-family: 'Shanti', sans-serif;
+}
+p{
+color:white;
+font-family:'Merriweather', serif;
+}
+nav a:hover{
+color: #FE9000;
+}
+nav ul li a{
+color: white;
+}
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+.nav-list {
+background-color: #3C6997;
+}
+
+.front-footer {
+color: Indigo;
+}
+.web-icon {
+width:30%;
+}
+.color-scheme {
+width:30%;
+}
