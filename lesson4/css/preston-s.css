@@ -49,6 +49,7 @@ color: #FE9000;
 }
 nav ul li a{
 color: white;
+display: block;
 }
 .navigation {
 list-style:none;
