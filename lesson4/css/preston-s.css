@@ -53,6 +53,9 @@ color: white;
 .navigation {
 list-style:none;
 padding: 0;
+display: flex;
+flex-direction: column;
+text-align: center;
 }
 .navigation li:first-child {
 display: block;
