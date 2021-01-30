@@ -4,9 +4,6 @@
             flex-direction: row;
             }
       
-    .navigation li {
-            display: block; 
-            flex: 1 1 auto;}
       
     .navigation a {
             text-align: center;}
