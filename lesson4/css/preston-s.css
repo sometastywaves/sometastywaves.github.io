@@ -53,9 +53,6 @@ color: white;
 .navigation {
 list-style:none;
 padding: 0;
-display: flex;
-flex-direction: column;
-text-align: center;
 }
 .navigation li:first-child {
 display: block;
@@ -69,7 +66,9 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #3C6997;}
+background-color: #3C6997;
+flex-direction: column;
+text-align: center;}
 
 .responsive li {
 display: block;
