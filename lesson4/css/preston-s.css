@@ -55,10 +55,10 @@ list-style:none;
 padding: 0;
 }
 .navigation li:first-child {
-	display: block;
+display: block;
 }
 .navigation li {
-  display: none;}
+display: none;}
 
 nav ul {
 display: flex;
@@ -70,7 +70,7 @@ background-color: #3C6997;
 flex-direction: column;}
 
 .responsive li {
-	display: block;
+display: block;
 }
 
 .front-footer {
