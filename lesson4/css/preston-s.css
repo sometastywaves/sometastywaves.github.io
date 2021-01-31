@@ -45,7 +45,8 @@ font-family:'Merriweather', serif;
 }
 nav a:hover{
 color: #FE9000;
-}
+background-color: white;}
+
 nav ul li a{
 color: white;
 display: block;
@@ -53,6 +54,8 @@ display: block;
 .navigation {
 list-style:none;
 padding: 0;
+border: 3px #3C6997;
+border-radius: 4px;
 }
 .navigation li:first-child {
 display: block;
