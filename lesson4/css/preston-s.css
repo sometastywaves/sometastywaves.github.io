@@ -14,9 +14,9 @@ align-items:center;
 justify-content:center;
 }
 main{
-background-color: #094074;
+background-color:purple;
 margin: auto;
-border: solid 5px #094074;
+border: solid 5px purple;
 border-radius: 5px;
 }
 img{
@@ -42,6 +42,7 @@ font-family:'Merriweather', serif;
 nav a {
 color:white;
 font-family:'Merriweather', serif;
+text-decoration: none;
 }
 nav a:hover{
 color: #FE9000;
@@ -75,7 +76,18 @@ text-align: center;}
 .responsive li {
 display: block;
 }
-
+.preston-sum {
+ padding: 10px;
+border: 1px dashed white;
+}
+.preston-title{
+padding: 10px;
+border: 1px dashed white;
+}
+.preston-arc {
+padding: 10px;
+border: 1px dashed white;
+}
 .front-footer {
 color: Indigo;
 }
