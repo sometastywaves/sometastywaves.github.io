@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Sweater Weather Site</title>
+     <meta name="description" content="W3 Weather Site Plan
+      for WDD230">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/storm-s.css">
+    <link rel="stylesheet" href="css/storm-m.css">
+    <link rel="stylesheet" href="css/storm-l.css">
+    <link rel="stylesheet" href="normalize.css">
+  </head>
+  
+<body>
+  
+<header>
+<img class="logo-img" src="lesson8\weather icon.jpg" alt="logo"> 
+<h1>Sweater Weather Site Plan</h1>
+</header>
+
+<nav>
+    <ul class="navigation responsive">
+        <li><a href = "#" onclick="toggleMenu()"> &#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="lesson4/preston-4.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+    </ul>
+</nav>
+
+<main>
+<h2>Storm Center</h2>
+<h3>Report A Storm</h3>
+<form action="/action_page.php">
+  <label for="name">First name:</label><br>
+  <input type="text"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text"><br>
+  <label for="mail">E-mail:</label>
+  <input type="text" ><br>
+  <label>Phone Number</label>
+  <input type="text" placeholder="ex.1-949-123-4567" /><br>
+  <input type="submit" >
+</form> 
+         
+                
+</main>
+ 
+<footer>
+ <p class="front-footer"> &copy;<span id="year"></span>| Ezra Salgado | California  |
+ <a class="footer-link" href="https://www.byui.edu/online">www.byui.edu/online </a>
+ | Today's Date: <span id="timework">Date</span></p>
+<script src="storm-script.js"> </script>
+</footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Shanti&display=swap');
+body {
+background-color: #FFDD4A;
+margin: auto ;
+padding: 1em;
+}
+header {
+background-color: #094074;
+border: solid 5px #094074;
+border-radius: 5px;
+font-family: 'Shanti', sans-serif;
+display: flex;
+align-items:center;
+justify-content:center;
+}
+main{
+background-color: purple;
+margin: auto;
+border: solid 5px purple;
+border-radius: 5px;
+}
+img{
+width:10%;
+padding: 15px ;
+}
+h1{
+color: white; 
+}
+h2{
+color:white;
+background-color: #3C6997;
+font-family: 'Shanti', sans-serif;
+}
+h3{
+color:white;
+font-family: 'Shanti', sans-serif;
+}
+p{
+color:white;
+font-family:'Merriweather', serif;
+}
+nav a {
+color:white;
+font-family:'Merriweather', serif;
+ text-decoration: none;
+}
+nav a:hover{
+color: #FE9000;
+}
+nav ul li a{
+color: white;
+}
+.navigation {
+list-style:none;
+padding: 0;
+border: 3px #3C6997;
+border-radius: 4px;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+  display: none;}
+
+.navigation a:hover {
+color:#FE9000;
+background-color: white;
+}
+
+
+nav ul {
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #3C6997;
+flex-direction: column;}
+form{
+color:white;
+}
