@@ -1,11 +1,11 @@
 const requestURL = 'https://byui-cit230.github.io/canvas-referenced/latter-day-prophets.json';
-
+let proweb = "";
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    const prophets = fetch(requestURL);
+     proweb = jsonObject;
     console.table(jsonObject);  // temporary checking for valid response and data parsing
   }) 
 ;
