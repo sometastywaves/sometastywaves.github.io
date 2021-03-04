@@ -16,7 +16,7 @@ for (let i = 0; i < prophets.length; i++ ) {
      let image = document.createElement("image");
      
      h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-     bday.textContent = prophets[i].birthday;
+     bday.textContent = prophets[i].birthdate;
      place.textContent = prophets[i].birthplace;
      image.src = prophets[i].imageurl;
      image.setAttribute('src', prophets[i].imageurl);
