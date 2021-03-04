@@ -28,4 +28,4 @@ for (let i = 0; i < prophets.length; i++ ) {
      card.appendChild(image);
 
      document.querySelector('div.cards').appendChild(card);
-}
+} } ;
