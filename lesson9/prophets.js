@@ -19,6 +19,7 @@ for (let i = 0; i < prophets.length; i++ ) {
      bday.textContent = prophets[i].birthday;
      place.textContent = prophets[i].birthplace;
      image.src = prophets[i].imageurl;
+     image.setAttribute('src', prophets[i].imageurl);
      
 
 
