@@ -27,6 +27,10 @@ p {
     text-align: center;
 }
 
+img {
+    max-width: 60%;
+}
+
 footer {
     align-items: center;
 }
