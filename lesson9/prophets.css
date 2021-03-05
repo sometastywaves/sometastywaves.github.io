@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+header {
+    color: maroon;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    width: 80%;
+    background-color: beige;
+}
+
+section {
+    display: flex;
+    background-color:cadetblue;
+    justify-content: center;
+}
+
+footer {
+    align-items: center;
+}
