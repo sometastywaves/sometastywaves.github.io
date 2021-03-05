@@ -14,10 +14,10 @@ header {
 }
 
 section {
-    display: flex;
     background-color:cadetblue;
     justify-content: center;
     width: 250px; 
+    max-width: 100%;
 }
 
 h1,h2 {
@@ -32,5 +32,5 @@ img {
 }
 
 footer {
-    align-items: center;
+    text-align: center;
 }
