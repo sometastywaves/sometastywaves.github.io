@@ -9,7 +9,6 @@ header {
 .cards {
     display: grid;
     grid-template-columns: 1fr;
-    width: 950px;
     background-color: beige;
     justify-content: center;
     padding: 12px;
