@@ -12,6 +12,7 @@ header {
     background-color: beige;
     justify-content: center;
     padding: 12px;
+    width: 375px;
 }
 
 section {
