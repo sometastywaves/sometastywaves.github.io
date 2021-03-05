@@ -11,14 +11,11 @@ header {
     grid-template-columns: 1fr;
     width: 950px;
     background-color: beige;
+    justify-content: center;
+    padding: 12px;
 }
 
-section {
-    background-color:cadetblue;
-    justify-content: center;
-    width: 250px; 
-    max-width: 100%;
-}
+
 
 h1,h2 {
     text-align: center;
