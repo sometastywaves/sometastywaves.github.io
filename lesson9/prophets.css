@@ -15,20 +15,41 @@ header {
     padding: 12px;
 }
 
+section {
+    max-width: 300px;
+    padding: 15px;
+}
 
 
 h1,h2 {
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 p {
     text-align: center;
 }
 
 img {
-    max-width: 40%;
+    width: 200px;
     margin: auto;
+    width:100%;
 }
 
 footer {
     text-align: center;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 500px){
+    cards{
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media only screen and (min-width: 950px){
+    cards{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
 }
