@@ -8,7 +8,8 @@ header {
 
 .cards {
     display: grid;
-    width: 80%;
+    grid-template-columns: 1fr;
+    width: 950px;
     background-color: beige;
 }
 
@@ -16,6 +17,14 @@ section {
     display: flex;
     background-color:cadetblue;
     justify-content: center;
+    width: 250px; 
+}
+
+h1,h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
 }
 
 footer {
