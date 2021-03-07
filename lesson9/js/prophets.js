@@ -9,7 +9,7 @@ fetch(requestURL)
     const prophets = jsonObject['prophets'];
   
 for (let i = 0; i < prophets.length; i++ ) {
-     let card = document.createElement('section');
+     let towns = document.createElement('section');
      let h2 = document.createElement('h2');
      let bday = document.createElement("p");
      let place = document.createElement("p");
@@ -21,8 +21,6 @@ for (let i = 0; i < prophets.length; i++ ) {
      image.src = prophets[i].imageurl;
      image.setAttribute('src', prophets[i].imageurl);
      
-
-
      card.appendChild(h2);
      card.appendChild(bday);
      card.appendChild(place);
