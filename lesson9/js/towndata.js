@@ -24,8 +24,6 @@ fetch(requestURL)
         rain.innerHTML = towns[i].averageRainfall;
         image.setAttribute('src',towns[i].photo);
 
-        let div = document.createElement('div');
-
         div.appendChild(name);
         div.appendChild(motto);
         div.appendChild(year);
