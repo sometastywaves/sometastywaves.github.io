@@ -30,7 +30,6 @@ fetch(requestURL)
         div.appendChild(rain);
         div.appendChild(population);
         card.appendChild(image);
-        card.appendChild(div);
 
         document.querySelector(towns).appendChild(towns);
       }
