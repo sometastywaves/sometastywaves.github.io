@@ -62,25 +62,27 @@ font-family: 'Signika', sans-serif;
 }
 .weblink {
 color:white;
-float: center;
 }
 .dgroup1 {
 border: solid 5px slateblue;
 border-radius: 5px;
 padding: 5px;
 background-color:slateblue;
+margin: auto;
 }
 .dgroup2 {
 border: solid 5px slateblue;
 border-radius: 5px;
 padding: 5px;
 background-color:slateblue;
+justify-content: center;
 }
 .dgroup3 {
 border: solid 5px slateblue;
 border-radius: 5px;
 padding: 5px;
 background-color:slateblue;
+justify-content: center;
 }
 footer{
 border: solid 5px indigo;
