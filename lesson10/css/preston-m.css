@@ -1,0 +1,32 @@
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+            display: flex;
+            flex-direction: row;
+    }
+
+    .navigation li {
+            display: block;
+            flex: 1 1 auto;
+    }
+
+    .navigation a {
+            text-align: center;
+    }
+
+    .navigation li:first-child {
+            display: none;
+    }
+
+    table {
+            display: table;
+            height: 4em;
+    }
+
+    td,
+    th {
+            width: 200px;
+            border: 2px solid white;
+            background-color: white;
+    }
+
+}

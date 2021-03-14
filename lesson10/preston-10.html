@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sweater Weather Site</title>
+    <meta name="description" content="W3 Weather Site Plan
+      for WDD230">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/preston-s.css">
+    <link rel="stylesheet" href="css/preston-m.css">
+    <link rel="stylesheet" href="css/preston-l.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo-img" src="pics\weather-icon.jpg" alt="logo">
+        <h1>Sweater Weather Report</h1>
+    </header>
+
+    <nav>
+        <ul class="navigation ">
+            <li><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="lesson4/preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Weather Forecast</h2>
+        <div class="info-pic">
+            <img class="townpic" src="pics/townpic.jpg" alt="Town">
+            <div class="infobox">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current"></span></p> 
+                <p>High: <span id="current-temp"></span>°F</p>
+                <p>Windchill: <span id="windChill"></span>°F</p> 
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Windspeed: <span id="windSpeed"></span>mph</p>
+            </div>
+        </div>
+
+        <div class="forecast5">
+            <h3>Five Day Forecast</h3>
+            <table>
+                <tr>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+
+                </tr>
+                <tr>
+                    <td><img src="pics/sunny.png" alt="sunny"></td>
+                    <td><img src="pics/cloudy.png" alt="cloudy"></td>
+                    <td><img src="pics/windy.png" alt="windy"></td>
+                    <td><img src="pics/sunny.png" alt="sunny"></td>
+                    <td><img src="pics/sunny.png" alt="sunny"></td>
+                </tr>
+
+                <tr>
+                    <th>71</th>
+                    <th>68</th>
+                    <th>70</th>
+                    <th>75</th>
+                    <th>78</th>
+
+                </tr>
+            </table>
+        </div>
+
+        <div class="article">
+            <h3>Preston's New Pizzeria</h3>
+            <img class="pizza-arc" src="pics/pizza-pic.jpeg" alt="pizza">
+            <p>LOREM FILLER GOES HERE</p>
+        </div>
+
+        <div class="fullcontact">
+            <img class="map" src="" alt="">
+            <div class="contact">
+                <h3>Sweater Weather Site</h3>
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+                <div class="social">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="pics/fb-icon.png" alt="Facebook logo"></a>
+                    <a href="https://www.instragram.com" target="_blank">
+                        <img src="pics/ig-icon.png" alt="Instagram logo"></a>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="pics/yt-icon.png" alt="Youtube logo"></a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="front-footer"> &copy;<span id="year"></span>| Ezra Salgado | California |
+            <a class="footer-link" href="https://www.byui.edu/online">www.byui.edu/online </a>
+            | Today's Date: <span id="timework">Date</span></p>
+        <script src="js/preston.js"> </script>
+    </footer>
+</body>
+
+</html>

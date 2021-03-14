@@ -27,7 +27,7 @@ header {
 
 main {
     background-color: purple;
-    margin: auto;
+    margin: 0 auto;
     border: solid 5px purple;
     border-radius: 5px;
 }
@@ -103,8 +103,6 @@ nav ul {
     display: block;
 }
 
-/*** sections ***/
-
 /* INFO PIC AND WEATHER SUMMARY */
 .infobox {
     padding: .25rem;
@@ -134,12 +132,21 @@ nav ul {
 
 /* FORECAST */
 
+/* ARTICLE */
+.pizza-arc {
+    width: 40%;
+}
 
 /* CONTACT */
 .contact {
     padding: 10px;
     border: 1px dashed white;
 }
+img.social {
+    width: 25%;
+}
+
+
 
 .front-footer {
     color: Indigo;
@@ -147,5 +154,4 @@ nav ul {
 
 #timework {
     color: indigo;
-}
 

@@ -6,4 +6,10 @@ function Yearjs() {
   document.getElementById("year").innerHTML = y
 }
 Yearjs();
-document.getElementById("timework").innerHTML = document.lastModified;
+
+const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"};
+document.getElementById("timework").innerHTML = new Date().toLocaleDateString("en-us", options);
+
+
+
+
