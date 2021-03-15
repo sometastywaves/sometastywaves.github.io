@@ -2,7 +2,8 @@
 
 body {
     background-color: #FFDD4A;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1em;
     max-width: 1000px;
 }
@@ -18,12 +19,6 @@ header {
     padding: 0;
 }
 
-.headline {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-}
 
 main {
     background-color: purple;
@@ -133,19 +128,51 @@ nav ul {
 }
 
 /* FORECAST */
+.forecast {
+    display: none;
+}
 
+/* ARTICLE */
+.article {
+   display: inline-block;
+   padding: 15px;
+}
+.pizza-arc {
+    width: 50%;
+    float: left;
+}
+.pizzainfo {
+    display: flex;
+}
 
 /* CONTACT */
 .contact {
     padding: 10px;
     border: 1px dashed white;
+    display: flex;
+}
+.map {  
+    width: 40%;
+    float: left;
+    padding-right: 100px;
+}
+.contactsoc {
+    flex-direction: column;
 }
 
+
+/*footer */
+
 .front-footer {
-    color: Indigo;
+    color: white;
+    background-color: #3C6997;
+    border: 2px solid purple;
+}
+.footer-link {
+    color: white;
 }
 
 #timework {
-    color: indigo;
+    color: white;
 }
 

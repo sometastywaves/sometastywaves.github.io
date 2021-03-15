@@ -17,6 +17,11 @@
                 display: none;
         }
 
+        .forecast{
+                display: table;
+                padding: 15px;
+        }
+
         table {
                 display: table;
                 height: 4em;
