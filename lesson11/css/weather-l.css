@@ -1,0 +1,33 @@
+@media only screen and (min-width: 70em) {
+    .navigation {
+               display: flex;
+               flex-direction: row;
+               }
+   
+   .navigation li {
+           display: block; 
+           flex: 1 1 auto;}
+         
+   .navigation a {
+               text-align: center;}
+         
+    .navigation li:first-child {
+               display: none;}
+    
+               /* GALLERY */
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+        justify-content:center;
+        }
+    figure:hover {
+        box-shadow: 0 0 50px whitesmoke;}
+        }
+        /* HOME PAGE*/
+    .towns{
+            flex-direction:row;
+        }
+    .towns section{
+            flex-direction: column;
+     }

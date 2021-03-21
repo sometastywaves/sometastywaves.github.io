@@ -1,0 +1,13 @@
+.ph-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+        
+    picture img[data-src] {
+    filter: blur(0.2rem);}
+        
+    picture img {
+    filter: blur(0rem);
+    transition: filter 0.5s;
+    margin-bottom: 5px;}
+        

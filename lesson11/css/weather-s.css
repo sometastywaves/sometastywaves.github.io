@@ -5,7 +5,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
-    max-width: 1000px;
 }
 
 header {
@@ -17,6 +16,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 0;
+    width: 100%;
 }
 
 
@@ -26,9 +26,9 @@ main {
     border: solid 5px purple;
     border-radius: 5px;
 }
-
-img {
-    width: 10%;
+.content {
+    max-width: 1000px;
+    margin: auto;
 }
 
 h1 {
@@ -50,6 +50,21 @@ p {
     color: white;
     font-family: 'Merriweather', serif;
 }
+.motto  {
+    font-style: italic;
+}
+.logo-img {
+    width: 10%;
+    margin-right: 2em;
+}
+/* BANNER */
+ #banner {
+     background-color:yellow;
+     border: 4px solid yellow;
+     color:navy;
+     text-align: center;
+     font-size: large;
+ }
 
 /* NAV  */
 
@@ -98,9 +113,9 @@ nav ul {
     display: block;
 }
 
-/*** sections ***/
+/* PRESTON */
 
-/* INFO PIC AND WEATHER SUMMARY */
+/* info pic and summary */
 .infobox {
     padding: .25rem;
     border: solid black 1.5px;
@@ -110,6 +125,9 @@ nav ul {
 
 .infobox h2 {
     color: white;
+}
+.infobox p {
+    color: navy;
 }
 .info-pic {
     position: relative;
@@ -139,6 +157,7 @@ nav ul {
 .article {
    display: inline-block;
    padding: 15px;
+   border: 2px solid #3c6997;
 }
 .pizza-arc {
     width: 50%;
@@ -147,6 +166,7 @@ nav ul {
 .pizzainfo {
     display: flex;
 }
+
 
 /* CONTACT */
 .contact {
@@ -162,7 +182,56 @@ nav ul {
 .contactsoc {
     flex-direction: column;
 }
-
+/* GALLERY*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    justify-content:center;
+    padding-left: 75px;
+    color: navy;
+    text-align: center;
+    width: 70%;
+    }
+.gallery img{
+    width: 100%;
+}
+figure {
+    background-color: white;
+}
+/* STORM CENTER FORMS */
+label{
+    color: white;
+}
+legend {
+    color: white;
+}
+.stormforms {
+display: flex;
+flex-direction: column;
+}
+/* HOME PAGE */
+.towns{
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    max-width: 100%;
+    justify-content: center;
+}
+.towns h2{
+    background-color: purple;
+}
+.towns img {
+    max-width: 100%;
+    padding: 10px;
+}
+section {
+    display: flex;
+    max-width: 300px;
+    border: 2px solid white;
+    align-items: center;
+    padding: 50px;
+}
 
 /*footer */
 
@@ -170,6 +239,7 @@ nav ul {
     color: white;
     background-color: #3C6997;
     border: 2px solid purple;
+    text-align: center;
 }
 .footer-link {
     color: white;
