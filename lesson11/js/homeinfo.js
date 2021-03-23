@@ -19,10 +19,11 @@ fetch(requestURL)
 
                 name.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
-                year.innerHTML = "Year Founded: " + towns[i].yearFounded;
-                population.innerHTML = "Population: " + towns[i].currentPopulation;
-                rain.innerHTML = "Ave. Rainfall: " + towns[i].averageRainfall;
+                year.textContent = "Year Founded: " + towns[i].yearFounded;
+                population.textContent = "Population: " + towns[i].currentPopulation;
+                rain.textContent = "Average Rainfall: " + towns[i].averageRainfall + " inches";
                 image.setAttribute('src', 'pics/' + towns[i].photo);
+                image.setAttribute ('alt', "Photo from free use media.");
 
                 div.appendChild(name);
                 div.appendChild(motto);
