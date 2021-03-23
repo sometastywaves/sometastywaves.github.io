@@ -151,6 +151,8 @@ nav ul {
 /* FORECAST */
 .forecast {
     display: none;
+    text-align: center;
+    margin: auto;
 }
 
 /* ARTICLE */
@@ -222,7 +224,7 @@ flex-direction: column;
     background-color: purple;
 }
 .towns img {
-    max-width: 100%;
+    width: 100%;
     padding: 10px;
 }
 section {
@@ -231,6 +233,30 @@ section {
     border: 2px solid white;
     align-items: center;
     padding: 50px;
+}
+/* events */
+
+.eventfish  {  
+    border: 5px solid white;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    }
+.eventp {  
+    border: 5px solid white;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    }
+.eventsoda {  
+    border: 5px solid white;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    }
+/* Thank you! */
+.thankyou{
+    text-align: center;
 }
 
 /*footer */
@@ -249,3 +275,8 @@ section {
     color: white;
 }
 
+.active a {
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+}

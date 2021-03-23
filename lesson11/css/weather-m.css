@@ -41,15 +41,7 @@
         justify-content:center;}
 
     /* HOME PAGE */
-    .cards{
-        flex-direction: column;
-    }
-    section{
-        display:flex;
-        flex-direction: row;
-    }
-    .cards section:nth-child(3){
-        flex-direction:row-reverse;
-        flex-wrap: nowrap;
-    }
-}
+   .towns{
+        display: flex;
+        flex-direction: row;    
+   }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Sweater Weather Site</title>
-  <meta name="description" content="W3 Weather Site Plan
+  <meta name="description" content=" Weather Site Plan
       for WDD230">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="pics/favicon.ico">
@@ -30,7 +30,7 @@
       <li><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></li>
       <li><a href="index.html">Home</a></li>
       <li><a href="preston.html">Preston</a></li>
-      <li><a href="soda-springs.html">Soda Springs</a></li>
+      <li class="active"><a href="soda-springs.html">Soda Springs</a></li>
       <li><a href="fish-haven.html">Fish Haven</a></li>
       <li><a href="stormcenter.html">Storm Center</a></li>
       <li><a href="gallery.html">Gallery</a></li>
@@ -38,16 +38,17 @@
   </nav>
 
   <main>
+    <div class="content">
     <h2>Soda Springs Weather Forecast</h2>
     <div class="info-pic">
       <img class="townpic" src="pics/townpic.jpg" alt="Town">
       <div class="infobox">
         <h2>Weather Summary</h2>
-        <p>Currently: Sunny</p>
-        <p>Temperature: 79%</p>
-        <p>Humidity: 66%</p>
-        <p>Precipitation: 2 inches</p>
-        <p>Wind Speed: 4 mph </p>
+        <p>Currently: <span id="current"></span></p>
+        <p>High: <span id="hightemp"></span>°F</p>
+        <p>Windspeed: <span id="wind"></span>MPH</p>
+        <p>Windchill: <span id="windChill"></span>°F</p>
+        <p>Humidity: <span id="humid"></span>%</p>
       </div>
     </div>
 
@@ -55,31 +56,34 @@
       <h3>Five Day Forecast</h3>
       <table>
         <tr>
-          <th>Tue</th>
-          <th>Wed</th>
-          <th>Thu</th>
-          <th>Fri</th>
-          <th>Sat</th>
-
-        </tr>
-        <tr>
-          <td><img src="" alt="sunny"></td>
-          <td><img src="" alt="cloudy"></td>
-          <td><img src="" alt="windy"></td>
-          <td><img src="" alt="sunny"></td>
-          <td><img src="" alt="sunny"></td>
+          <th id="day1"></th>
+          <th id="day2"></th>
+          <th id="day3"></th>
+          <th id="day4"></th>
+          <th id="day5"></th>
         </tr>
 
         <tr>
-          <th>71</th>
-          <th>68</th>
-          <th>70</th>
-          <th>75</th>
-          <th>78</th>
-
+          <td><img id="image1"></td>
+          <td><img id="image2"></td>
+          <td><img id="image3"></td>
+          <td><img id="image4"></td>
+          <td><img id="image5"></td>
+        </tr>
+        <tr>
+          <td id="temp1"> °F</td>
+          <td id="temp2"> °F</td>
+          <td id="temp3"> °F</td>
+          <td id="temp4"> °F</td>
+          <td id="temp5"> °F</td>
         </tr>
       </table>
     </div>
+
+    <div class="eventsoda">
+      <h2>Soda Springs Events!</h2>
+    </div>
+
 
     <div class="article">
       <h3>Preston's New Pizzeria</h3>
@@ -116,7 +120,7 @@
         </div>
       </div>
     
-
+    </div>
   </main>
 
   <footer>
@@ -124,6 +128,10 @@
       <a class="footer-link" href="https://www.byui.edu/online">www.byui.edu/online </a>
       | Today's Date: <span id="timework">Date</span></p>
     <script src="js/script.js"> </script>
+    <script src="js/weatherbox.js"> </script>
+    <script src="js/windchill.js"> </script>
+    <script src="js/forecast.js"> </script>
+    <script src="js/events/sodaevent.js"></script>
   </footer>
 </body>
 

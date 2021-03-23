@@ -21,7 +21,7 @@ fetch(requestURL)
                 motto.textContent = towns[i].motto;
                 year.innerHTML = "Year Founded: " + towns[i].yearFounded;
                 population.innerHTML = "Population: " + towns[i].currentPopulation;
-                rain.innerHTML = "Average Rainfall: " + towns[i].averageRainfall;
+                rain.innerHTML = "Ave. Rainfall: " + towns[i].averageRainfall;
                 image.setAttribute('src', 'pics/' + towns[i].photo);
 
                 div.appendChild(name);
