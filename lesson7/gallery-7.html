@@ -6,19 +6,18 @@
      <meta name="description" content="W3 Weather Site Plan
       for WDD230">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/gallery-s.css">
     <link rel="stylesheet" href="css/gallery-m.css">
     <link rel="stylesheet" href="css/gallery-l.css">
+    <link rel="stylesheet" href="css/lazyload.css">
+    <link rel="stylesheet" href="css/normalize.css">
   </head>
   
 <body>
   
-<header>
-  <div id="banner"></div>
 
   <header>
-    <img class="logo-img" src="pics\weather-icon.jpg" alt="logo">
+    <img class="logo-img" src="pics/weather-icon.jpg" alt="logo">
     <div>
     <h1>Sweater Weather Report</h1>
     <p class="motto">Reports you can trust!</p>
@@ -39,16 +38,51 @@
 <main>
   <h1>Weather Gallery</h1>
   <div class="gallery">
-          <picture><img src="https://via.placeholder.com/300x400" data-src="img/gallery1.jpg" alt="PH 1"></picture>
-          <picture><img src="https://via.placeholder.com/300x400" data-src="img/gallery2.jpg" alt="PH 2"></picture>
-          <picture><img src="https://via.placeholder.com/300x400" data-src="img/gallery3.jpg" alt="PH 3"></picture>
-          <picture><img src="https://via.placeholder.com/300x400" data-src="img/gallery4.jpg" alt="PH 4"></picture>
-          <picture><img src="https://via.placeholder.com/300x400" data-src="img/gallery5.jpg" alt="PH 5"></picture>
-          <picture><img src="https://via.placeholder.com/300x400" data-src="img/gallery6.jpg" alt="PH 6"></picture>
-          <picture><img src="https://via.placeholder.com/300x400" data-src="img/gallery7.jpg" alt="PH 7"></picture>
-          <picture><img src="https://via.placeholder.com/300x400" data-src="img/gallery8.jpg" alt="PH 8"></picture>
-          <picture><img src="https://via.placeholder.com/300x400" data-src="img/gallery9.jpg" alt="PH 9"></picture>  
-      </div>
+    <figure>
+    <picture><img src="https://via.placeholder.com/300x400" data-src="pics/gallery1.jpg" alt="PH 1"></picture>
+    <figcaption>Dark and cloudy skys</figcaption>
+    </figure>
+
+    <figure>
+    <picture><img src="https://via.placeholder.com/300x400" data-src="pics/gallery2.jpg" alt="PH 2"></picture>
+    <figcaption>Snowy road and trees</figcaption>
+    </figure>
+
+    <figure>
+    <picture><img src="https://via.placeholder.com/300x400" data-src="pics/gallery3.jpg" alt="PH 3"></picture>
+    <figcaption>Lightning Storm</figcaption>
+    </figure>
+
+    <figure>
+    <picture><img src="https://via.placeholder.com/300x400" data-src="pics/gallery4.jpg" alt="PH 4"></picture>
+    <figcaption>Clear skys with some clouds</figcaption>
+    </figure>
+
+    <figure>
+    <picture><img src="https://via.placeholder.com/300x400" data-src="pics/gallery5.jpg" alt="PH 5"></picture>
+    <figcaption>Rainbow after a rain</figcaption>
+    </figure>
+
+    <figure>
+    <picture><img src="https://via.placeholder.com/300x400" data-src="pics/gallery6.jpg" alt="PH 6"></picture>
+    <figcaption>Clear day with scattered clouds</figcaption>
+    </figure>
+
+    <figure>
+    <picture><img src="https://via.placeholder.com/300x400" data-src="pics/gallery7.jpg" alt="PH 7"></picture>
+    <figcaption>Unique Cloud Formation</figcaption>
+    </figure>
+
+    <figure>
+    <picture><img src="https://via.placeholder.com/300x400" data-src="pics/gallery8.jpg" alt="PH 8"></picture>
+    <figcaption>Sunny day with some clouds</figcaption>
+    </figure>
+
+    <figure>
+    <picture><img src="https://via.placeholder.com/300x400" data-src="pics/gallery9.jpg" alt="PH 9"></picture>  
+    <figcaption>Incoming inclement weather</figcaption>
+    </figure>
+ </div>
 </main>
  
 <footer>

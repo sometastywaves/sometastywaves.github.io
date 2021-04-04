@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>City of Costa Mesa Chamber of Commerce</title>
+    <meta name="description" content="Final Project Site for WDD230">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="pics/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+   
+</head>
+
+<body>
+    <div id="banner"></div>
+    <header>
+        <h2>Costa Mesa Chamber of Commerce</h2>
+      // Image goes here \\
+    </header>
+
+    <nav>
+        <ul class="navigation ">
+            <li><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="city.html">City Info</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="content">
+            <h2>Request a Membership</h2>
+            <div class="forms">
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <label>First Name* <input type="text" name="first name" required></label><br>
+                    <label>Last Name* <input type="text" name="last name" required></label><br>
+                    <label>Title<input type="text" name="title"></label><br>
+                    <label>Email <input type="email" name="email" placeholder="ex. hellothere@gmail.com" required></label><br>
+                    <label>Phone* <input type="tel" name="number" placeholder="ex. (208)123-4567" required></label><br>
+                    <label>Business Name*<input type="text" name="business name" required></label><br>
+                    <label>Business Address<input type="text" name="address"></label><br>
+                    <label>Business Description<input type="text" name="description"></label><br>
+                    <legend>* are required</legend>
+                </fieldset>
+
+                <fieldset>
+                    <label>Membership Level
+                        <select name="Level">
+                            <option>Select Region</option>
+                            <option value="nonprofit">Non-Profit $100</option>
+                            <option value="bronze">Bronze $200</option>
+                            <option value="silver">Silver $300</option>
+                            <option value="gold">Gold $1000</option>
+                        </select></label>
+
+                </fieldset>
+            <br>
+                <input type="submit" class="submit"></form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p class="footer">Weather Source:<a class="footer-link" href="https://openweathermap.org/">OpenWeatherMap </a>
+        Attributions:<a href="directory.html">Click Here</a><br> &copy;<span id="year"></span>| Ezra Salgado | California |
+        <a class="footer-link" href="https://www.byui.edu/online">www.byui.edu/online </a>
+        | Today's Date: <span id="timework">Date</span></p>
+        <script src="js/script.js"> </script>
+    </footer>
+</body>
+
+</html>

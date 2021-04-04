@@ -131,7 +131,23 @@ nav ul {
 }
 
 /* FORECAST */
+.forecast{
+    display: table;
+    padding: 15px;
+    text-align: center;
+}
 
+table {
+    display: table;
+    height: 4em;
+}
+
+td,
+th {
+    width: 200px;
+    border: 2px solid white;
+    background-color: white;
+}
 /* ARTICLE */
 .pizza-arc {
     width: 40%;
@@ -145,8 +161,6 @@ nav ul {
 img.social {
     width: 25%;
 }
-
-
 
 .front-footer {
     color: Indigo;

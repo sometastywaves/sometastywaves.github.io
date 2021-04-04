@@ -32,79 +32,75 @@
     </nav>
 
     <main>
-        <h2>Preston Weather Forecast</h2>
-        <div class="info-pic">
-            <img class="townpic" src="pics/townpic.jpg" alt="Town">
-            <div class="infobox">
+        <div class="content">
+            <h2>Preston Weather Forecast</h2>
+            <div class="info-pic">
+              <img class="townpic" src="pics/townpic.jpg" alt="Town">
+              <div class="infobox">
                 <h2>Weather Summary</h2>
-                <p>Currently: <span id="current"></span></p> 
-                <p>High: <span id="current-temp"></span>°F</p>
-                <p>Windchill: <span id="windChill"></span>°F</p> 
-                <p>Humidity: <span id="humidity"></span>%</p>
-                <p>Windspeed: <span id="windSpeed"></span>mph</p>
+                <p>Currently: <span id="current"></span></p>
+                <p>High: <span id="hightemp"></span>°F</p>
+                <p>Windspeed: <span id="wind"></span>MPH</p>
+                <p>Windchill: <span id="windchill"></span>°F</p>
+                <p>Humidity: <span id="humid"></span>%</p>
+              </div>
+            </div>
+        
+            <div class="forecast">
+              <h3>Five Day Forecast</h3>
+              <table>
+                <tr>
+                  <th id="day1"></th>
+                  <th id="day2"></th>
+                  <th id="day3"></th>
+                  <th id="day4"></th>
+                  <th id="day5"></th>
+                </tr>
+        
+                <tr>
+                  <td><img id="image1"></td>
+                  <td><img id="image2"></td>
+                  <td><img id="image3"></td>
+                  <td><img id="image4"></td>
+                  <td><img id="image5"></td>
+                </tr>
+                <tr>
+                  <td id="temp1"> °F</td>
+                  <td id="temp2"> °F</td>
+                  <td id="temp3"> °F</td>
+                  <td id="temp4"> °F</td>
+                  <td id="temp5"> °F</td>
+                </tr>
+              </table>
+            </div>
+        
+            <div class="eventp">
+              <h2>Preston Events!</h2>
+            </div>
+        
+            <div class="article">
+              <h3>Preston's New Pizzeria</h3>
+              <div class="pizzainfo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ad nulla culpa est eaque recusandae, odio unde quibusdam
+                  ex temporibus perferendis re Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Blanditiis quis incidunt
+                  suscipit omnis maxime veritatis, sunt quos accusantium
+                  impedit minus quaerat dolores a, animi vero ipsa eaque
+                  recusandae. Perspiciatis, quisquam?</p>
+                <img class="pizza-arc" src="pics/pizza-pic.jpeg" alt="pizza">
+              </div> 
             </div>
         </div>
-
-        <div class="forecast5">
-            <h3>Five Day Forecast</h3>
-            <table>
-                <tr>
-                    <th>Tue</th>
-                    <th>Wed</th>
-                    <th>Thu</th>
-                    <th>Fri</th>
-                    <th>Sat</th>
-
-                </tr>
-                <tr>
-                    <td><img src="pics/sunny.png" alt="sunny"></td>
-                    <td><img src="pics/cloudy.png" alt="cloudy"></td>
-                    <td><img src="pics/windy.png" alt="windy"></td>
-                    <td><img src="pics/sunny.png" alt="sunny"></td>
-                    <td><img src="pics/sunny.png" alt="sunny"></td>
-                </tr>
-
-                <tr>
-                    <th>71</th>
-                    <th>68</th>
-                    <th>70</th>
-                    <th>75</th>
-                    <th>78</th>
-
-                </tr>
-            </table>
-        </div>
-
-        <div class="article">
-            <h3>Preston's New Pizzeria</h3>
-            <img class="pizza-arc" src="pics/pizza-pic.jpeg" alt="pizza">
-            <p>LOREM FILLER GOES HERE</p>
-        </div>
-
-        <div class="fullcontact">
-            <img class="map" src="" alt="">
-            <div class="contact">
-                <h3>Sweater Weather Site</h3>
-                <p>30 N 1st E</p>
-                <p>Preston, ID 83263</p>
-                <div class="social">
-                    <a href="https://www.facebook.com" target="_blank">
-                        <img src="pics/fb-icon.png" alt="Facebook logo"></a>
-                    <a href="https://www.instragram.com" target="_blank">
-                        <img src="pics/ig-icon.png" alt="Instagram logo"></a>
-                    <a href="https://www.youtube.com" target="_blank">
-                        <img src="pics/yt-icon.png" alt="Youtube logo"></a>
-                </div>
-            </div>
-        </div>
-
     </main>
 
     <footer>
         <p class="front-footer"> &copy;<span id="year"></span>| Ezra Salgado | California |
             <a class="footer-link" href="https://www.byui.edu/online">www.byui.edu/online </a>
             | Today's Date: <span id="timework">Date</span></p>
-        <script src="js/preston.js"> </script>
+        <script src="js/weather.js"> </script>
+        <script src="js/weatherbox.js"> </script>
+        <script src="js/script.js"> </script>
     </footer>
 </body>
 
