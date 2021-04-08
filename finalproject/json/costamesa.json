@@ -1,0 +1,52 @@
+{
+     "localCompany": [
+     {
+        "name": "Sidecar Donuts",
+        "number": "949-123-4567",
+        "site": "www.sidecardonuts.com",
+        "icon": "pics/sidecar-logo.png"
+      },
+
+      {
+        "name": "Blends" ,
+        "number": "949-123-4567",
+        "site": "www.blendsus.com",
+        "icon": "pics/blends.jpg"
+      },
+
+      {
+        "name": "Banzai Bowls" ,
+        "number": "949-123-4567",
+        "site": "www.banzaibowls.com",
+        "icon": "pics/banzaibowls.png"
+      },
+
+      {
+        "name": "Pureglass Shaping" ,
+        "number": "949-123-5678",
+        "site": "www.pureglassshaping.com",
+        "icon": "pics/glasslogo.png" 
+      },
+
+      {
+        "name": "Mitsuwa Market",
+        "number": "949-123-5678",
+        "site": "www.mitsuwamarket.com",
+        "icon": "pics/mitsuwa.jpg"
+      },
+
+      {
+        "name":"Mother's Market",
+        "number": "949-123-5678",
+        "site": "www.mothersmarket.com",
+        "icon": "pics/mothers.png"
+      },
+
+      {
+        "name": "Deseret Book" ,
+        "number": "800-123-4567",
+        "site": "www.deseretbook.com",
+        "icon": "pics/deseretbook.png"
+      }
+    ]
+}

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Libre+Caslon+Display&display=swap');
+body {
+    background-color: #392f5a;
+}
+
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    background-color: #9dd9d2;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3C6997;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    margin-top: 250px;
+    font-size: 1.25em;
+}
+.navigation li {
+    display: none;
+}
+.navigation li:first-child {
+    display: block;
+}
+
+nav ul a {
+    color: white;
+}
+
+.content {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff8f0;
+}
+h2, h3, h4 {
+    font-family: 'Libre Caslon Display', serif;
+}
+
+p {
+    font-family: 'Andika', sans-serif;
+}
+.content h2 {
+    background-color: #f4d06f;
+}
+
+/* INDEX */
+.article {
+    display: inline-block;
+}
+
+.cmhome {
+    display: flex;
+}
+
+.mall {
+    width: 100%;
+}
+
+.sbimages img {
+    width: 33%;
+}
+
+.sbimages {
+    display: flex;
+    width: 100%;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    width: 850px;
+    margin: auto;
+    grid-gap: 25px;
+    text-align: center;
+
+}
+
+.events {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: blue 1px solid;
+    width: 450px;
+}
+
+.weatherinfo {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    border: blue 1px solid;
+    width: 450px;
+}
+
+.contact {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    border: blue 1px solid;
+    width: 450px;
+}
+
+.social {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    border: blue 1px solid;
+    width: 450px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.direct {
+    padding: 25px;
+}
+
+.cards img{
+    width: 200px;
+    height: 200px;
+}
+.forecast{
+    display: table;
+    padding: 15px;
+}
+
+table {
+    display: table;
+    height: 4em;
+}
+
+td,
+th {
+    width: 200px;
+    border: 2px solid white;
+    background-color: white;
+}
+/* JOIN */
+.joinpage {
+ margin: auto;
+padding: 25px;}
+.forms {
+    width: 50%;
+    margin: auto;
+}
+/* CONTACT */
+.contactpage {
+ margin: auto;
+ padding: 25px;
+}
+
+/* CITY */
+.cityinfo {
+    margin: auto;
+    padding: 25px;
+   }
+
+/* FOOTER */
+footer {
+    text-align: center;
+    color: #392f5a;
+    background-color: #9dd9d2;
+    width: 50%;
+    margin: auto;
+}
+.active a {
+    color: white;
+    background-color:red;
+    font-weight: bold;
+}

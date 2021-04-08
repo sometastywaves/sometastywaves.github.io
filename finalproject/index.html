@@ -6,20 +6,23 @@
     <title>City of Costa Mesa Chamber of Commerce</title>
     <meta name="description" content="Final Project Site for WDD230">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="pics/favicon.ico">
+    <link rel="shortcut icon" href="pics/favicon.png">
     <link rel="stylesheet" href="css/normalize.css">
-   
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 
 <body>
-    <div id="banner"></div>
     <header>
+        <div>
+        <img src="pics/logo.png" alt="CM logo">
+        </div>
+        <div>
         <h2>Costa Mesa Chamber of Commerce</h2>
-      // Image goes here \\
-    </header>
-
+       </div>
     <nav>
-        <ul class="navigation ">
+        <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></li>
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="join.html">Join</a></li>
@@ -28,38 +31,105 @@
             <li><a href="city.html">City Info</a></li>
         </ul>
     </nav>
-
+</header>
     <main>
         <div class="content">
            <div class="article">
-
+                <h2>Our Mission</h2>
+                <div class="cmhome">
+                <p>Thank you visiting our site!
+                As a chamber of commerce, we wish to provide your
+                business the resources it needs to thrive in our town.
+                We love helping small businesses develop and we offer membership
+                services to better assist you!
+                </p>      
+           <img src="pics/costamesa.jpg" class="mall" alt="mall at night"></div>
            </div>
 
            <div class="businesses"> 
                <h2>Featured Small Businesses</h2>
                 <div class="sbimages">
-                 <!--Images go Here--> 
+                 <img src="pics/nickspizza.jpg">
+                 <img src="pics/pureglass.jpg">
+                 <img src="pics/sidecar.jpeg">
                 </div>
            </div>
-           
-           <div class="weatherinfo">
-           </div>
+         <div class="boxes">
+                <div class="weatherinfo">
+                    <h2>Weather Forecast</h2>
+                    <p>Currently: <span id="current"></span> </p>
+                    <p>Temp: <span id="temp"></span>°F</p>
+                    <p>Humidity: <span id="humid"></span></p>
+                    <table class="forecast">
+                        <tr>
+                            <th id="day1"></th>
+                            <th id="day2"></th>
+                            <th id="day3"></th>
+                        </tr>
+                
+                        <tr>
+                            <td><img id="image1"></td>
+                            <td><img id="image2"></td>
+                            <td><img id="image3"></td>
+                        </tr>
+                        <tr>
+                            <td id="temp1"> °F</td>
+                            <td id="temp2"> °F</td>
+                            <td id="temp3"> °F</td>
+                        </tr>
+                    </table>
+                </div>
 
-           <div class="contact">
-           </div>
+                <div class="events">
+                    <h2>Upcoming Events</h2>
 
-           <div class="events">
-           </div>
+                    <h3>Community Run</h3>
+                    <p>5k and 10k Run <br>
+                    OC Fairgrounds 5/1/2021 8am -12pm
+                    </p>
 
-        </div>
+                    <h3>Fish Fry</h3>
+                    <p>Food (fish and chips!) and Live Music<br>
+                    Fairview Park 7/1/2021 12 - 8pm</p>
+
+                    <h3>OC FAIR</h3>
+                    <p>Annual Fair at the Fairgrounds <br>
+                    7/7/2021 - 8/8/2021 </p>
+                </div>
+
+                <div class="contact">
+                        <h2>Contact Information</h2>
+                        <h3>Address</h3>
+                        <p>77 Fair Dr <br>
+                        Costa Mesa, CA 92626</p>
+
+                        <h3>Phone Number</h3>
+                        <p>(714)754-5000</p>
+
+                        <h3>Email</h3>
+                        <p>info@costamesachamber.com</p>
+                </div>
+
+                <div class="social">
+                    <h2>Social Media</h2>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="pics/fb-icon.png" alt="Facebook logo"></a><br>
+                    <a href="https://www.instragram.com" target="_blank">
+                        <img src="pics/ig-icon.png" alt="Instagram logo"></a><br>
+                </div>
+
+             </div>
+         </div>
     </main>
 
     <footer>
         <p class="footer">Weather Source:<a class="footer-link" href="https://openweathermap.org/">OpenWeatherMap </a>
-        Attributions:<a href="directory.html">Click Here</a><br> &copy;<span id="year"></span>| Ezra Salgado | California |
+        Attributions:<a href="attributions.html">Click Here</a><br> &copy;<span id="year"></span>| Ezra Salgado | California |
         <a class="footer-link" href="https://www.byui.edu/online">www.byui.edu/online </a>
-        | Today's Date: <span id="timework">Date</span></p>
+        | Last Modified: <span id="timework"></span></p>
         <script src="js/script.js"> </script>
+        <script src="js/forecast.js"></script>
+        <script src="js/weather.js"></script>
     </footer>
 </body>
 

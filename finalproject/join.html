@@ -8,18 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="pics/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
    
 </head>
 
 <body>
-    <div id="banner"></div>
     <header>
+        <div>
+        <img src="pics/logo.png" alt="CM logo">
+        </div>
+        <div>
         <h2>Costa Mesa Chamber of Commerce</h2>
-      // Image goes here \\
-    </header>
-
+       </div>
     <nav>
-        <ul class="navigation ">
+        <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></li>
             <li><a href="index.html">Home</a></li>
             <li class="active"><a href="join.html">Join</a></li>
@@ -28,40 +32,66 @@
             <li><a href="city.html">City Info</a></li>
         </ul>
     </nav>
+</header>
 
     <main>
         <div class="content">
-            <h2>Request a Membership</h2>
-            <div class="forms">
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <legend>Your Information</legend>
-                    <label>First Name* <input type="text" name="first name" required></label><br>
-                    <label>Last Name* <input type="text" name="last name" required></label><br>
-                    <label>Title<input type="text" name="title"></label><br>
-                    <label>Email <input type="email" name="email" placeholder="ex. hellothere@gmail.com" required></label><br>
-                    <label>Phone* <input type="tel" name="number" placeholder="ex. (208)123-4567" required></label><br>
-                    <label>Business Name*<input type="text" name="business name" required></label><br>
-                    <label>Business Address<input type="text" name="address"></label><br>
-                    <label>Business Description<input type="text" name="description"></label><br>
-                    <legend>* are required</legend>
-                </fieldset>
+            <div class="joinpage">
+                        <h2>Become a Member!</h2>
+                        <h3>Membership Levels and Benefits</h3>
+                        <div>
+                        <h4>Non-Profit</h4>
+                        <p>Non-Profit organizations help out our community!
+                        Benefits include: Ad on local newspaper and full directory
+                        of local businesses and owner contact information.
+                        </p> <br>
+                        <h4>Bronze</h4>
+                        <p>Benefits: Non-Profit benefits + monthly social media post,
+                        your company logo on select events sponsor images, and small ad on our website.
+                        </p> <br>
+                        <h4>Silver</h4>
+                        <p>Benefits: Bronze + medium ad on our site, company logo on all event sponsor
+                        images, and  (1 week) annual feature of your company on our homepage.
+                        </p><br>
+                        <h4>Gold</h4>
+                        <p>Benefits: Silver + professional photoshoot of your business,
+                        (4 different weeks of the year) special feature on our homepage,
+                        large logo on all event sponsor images, and access to event and 
+                        marketing meetings at our location.
+                        </p>
+                    </div>
 
-                <fieldset>
-                    <label>Membership Level
-                        <select name="Level">
-                            <option>Select Region</option>
-                            <option value="nonprofit">Non-Profit $100</option>
-                            <option value="bronze">Bronze $200</option>
-                            <option value="silver">Silver $300</option>
-                            <option value="gold">Gold $1000</option>
-                        </select></label>
+                  
+                    <h2>Request a Membership</h2>
+                    <div class="forms">
+                    <form method="get" action="thanks.html">
+                        <fieldset>
+                            <legend>Your Information</legend>
+                            <label>First Name* <input type="text" name="first name" required></label><br>
+                            <label>Last Name* <input type="text" name="last name" required></label><br>
+                            <label>Title<input type="text" name="title"></label><br>
+                            <label>Email <input type="email" name="email" placeholder="ex. hellothere@gmail.com" required></label><br>
+                            <label>Phone* <input type="tel" name="number" placeholder="ex. (208)123-4567" required></label><br>
+                            <label>Business Name*<input type="text" name="business name" required></label><br>
+                            <label>Business Address<input type="text" name="address"></label><br>
+                            <label>Business Description<input type="text" name="description"></label><br>
+                            <legend>* are required</legend>
+                        </fieldset><br>
 
-                </fieldset>
-            <br>
-                <input type="submit" class="submit"></form>
-            </div>
+                        <fieldset>
+                            <label>Membership Level
+                                <select name="Level">
+                                    <option>Select Region</option>
+                                    <option value="nonprofit">Non-Profit $100</option>
+                                    <option value="bronze">Bronze $200</option>
+                                    <option value="silver">Silver $300</option>
+                                    <option value="gold">Gold $1000</option>
+                                </select></label>
 
+                        </fieldset>
+                    <br>
+                        <input type="submit" class="submit"></form>
+                    </div>
         </div>
     </main>
 

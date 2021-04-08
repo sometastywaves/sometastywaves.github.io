@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>City of Costa Mesa Chamber of Commerce</title>
+    <meta name="description" content="Final Project Site for WDD230">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="pics/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+            <div>
+            <img src="pics/logo.png" alt="CM logo">
+            </div>
+            <div>
+            <h2>Costa Mesa Chamber of Commerce</h2>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></li>
+                <li"><a href="index.html">Home</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a href="city.html">City Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="contactpage">
+                    <div>
+                        <h2>Contact Us</h2>
+                        <h3>Address</h3>
+                        <p>77 Fair Dr <br>
+                        Costa Mesa, CA 92626</p>
+
+                        <h3>Phone Number</h3>
+                        <p>(714)754-5000</p>
+
+                        <h3>Email</h3>
+                        <p>info@costamesachamber.com</p>
+                    </div>
+                    <fieldset>
+                        <legend></legend>
+                        <label>Name <input type="text" name="name"></label><br>
+                        <label>Phone* <input type="tel" name="number" placeholder="ex. (949)123-4567" ></label><br>
+                        <legend>Type in additional details</legend>
+                        <label><textarea id="add-info" name="add-info"></textarea></label>
+                    </fieldset>
+                    <input type="submit" class="submit"></form><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24184.72113934476!2d-117.90919867092818!3d33.66771404893725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1617775459725!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+         </div>
+    </main>
+
+    <footer>
+        <p class="footer">Weather Source:<a class="footer-link" href="https://openweathermap.org/">OpenWeatherMap </a>
+        Attributions:<a href="attributions.html">Click Here</a><br> &copy;<span id="year"></span>| Ezra Salgado | California |
+        <a class="footer-link" href="https://www.byui.edu/online">www.byui.edu/online </a>
+        | Today's Date: <span id="timework">Date</span></p>
+        <script src="js/script.js"> </script>
+        <script src="js/forecast.js"></script>
+        <script src="js/weather.js"></script>
+    </footer>
+</body>
+
+</html>

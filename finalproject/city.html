@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>City of Costa Mesa Chamber of Commerce</title>
+    <meta name="description" content="Final Project Site for WDD230">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="pics/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+            <img src="pics/logo.png">
+            <h2>Costa Mesa Chamber of Commerce</h2>
+
+        <nav>
+            <ul class="navigation ">
+                <li><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="city.html">City Info</a></li>
+            </ul>
+        </nav>
+    </header>   
+
+    <main>
+        <div class="content">
+            <div class="cityinfo">
+                    <h2>City Information</h2>
+                    <div>
+                        <h3>History</h3><br>
+                        <p>Located on the "coastal tableland" above Newport Beach,
+                            Costa Mesa's first inhabitants were native American Indians
+                            who settled on the mesa near the banks of the Santa Ana River.
+                            Six Spanish leagues southeast of what's now Costa Mesa was Mission
+                            San Juan Capistrano founded in 1776. The padres would occasionally
+                            visit Lukup. In the early 1800s, when the Capistrano cattle
+                            (made famous by Richard Henry Dana in his memoir,
+                            "Two Years Before the Mast") grazed in the Costa Mesa area,
+                            provision had to be made to shelter the herdsmen. World War II
+                            brought many thousands of people to the area for training at
+                            the Santa Ana Army Air Base, located on what is now the Orange
+                            County Fairgrounds; Orange Coast College; and the present site
+                            of the Civic Center. When the war ended, many of these men and
+                            women returned with their families to begin the population boom
+                            which continues today. </p>
+                        <h3>Demographics</h3>
+                        <p>2019 Population Estimate: 113,000</p>
+                        <p>Households (2015-2019): 40,986</p>
+                        <p>Language other than English spoken at home: 38.8%</p>
+                    </div>
+
+                    <img src="pics/noguchi.jpg" alt="rock garden">
+
+                    <div>
+                    <h3>Board of Directors</h3>
+                    <h4>Chairman of the Board of Directors:</h4>
+                    <p>Jennifer Farrell</p>
+                    <h4>Members</h4>
+                    <ul>
+                        <li>Arthur Alderete </li>
+                        <li>Magdalena Gomez</li>
+                        <li>Steve Gostin</li>
+                        <li>Paulette Lombardi-Fries</li>
+                        <li>David Vazquez</li>
+                    </ul>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="footer">Weather Source:<a class="footer-link" href="https://openweathermap.org/">OpenWeatherMap </a>
+            Attributions:<a href="attributions.html">Click Here</a><br> &copy;<span id="year"></span>| Ezra Salgado |
+            California |
+            <a class="footer-link" href="https://www.byui.edu/online">www.byui.edu/online </a>
+            | Today's Date: <span id="timework">Date</span></p>
+        <script src="js/script.js"> </script>
+        <script src="js/forecast.js"></script>
+        <script src="js/weather.js"></script>
+    </footer>
+</body>
+
+</html>
