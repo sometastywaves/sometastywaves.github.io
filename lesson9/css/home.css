@@ -1,79 +1,282 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Shanti&display=swap');
-body {
-background-color: #FFDD4A;
-margin: auto ;
-padding: 1em;
-}
-header {
-background-color: #094074;
-border: solid 5px #094074;
-border-radius: 5px;
-font-family: 'Shanti', sans-serif;
-display: flex;
-align-items:center;
-justify-content:center;
-}
-main{
-background-color:purple;
-margin: auto;
-border: solid 5px purple;
-border-radius: 5px;
-}
-img{
-width:10%;
-padding: 15px ;
-}
-h1{
-color: white; 
-}
-h2{
-color:white;
-background-color: #3C6997;
-font-family: 'Shanti', sans-serif;
-}
-h3{
-color:white;
-font-family: 'Shanti', sans-serif;
-}
-p{
-color:white;
-font-family:'Merriweather', serif;
-}
-nav a {
-color:white;
-font-family:'Merriweather', serif;
-text-decoration: none;
-}
-nav a:hover{
-color: #FE9000;
-background-color: white;}
 
-nav ul li a{
-color: white;
-display: block;
+body {
+    background-color: #FFDD4A;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
 }
+
+header {
+    background-color: #094074;
+    border: solid 5px #094074;
+    border-radius: 5px;
+    font-family: 'Shanti', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+}
+
+
+main {
+    background-color: purple;
+    margin: auto;
+    border: solid 5px purple;
+    border-radius: 5px;
+}
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    background-color: #3C6997;
+    font-family: 'Shanti', sans-serif;
+}
+
+h3 {
+    color: white;
+    font-family: 'Shanti', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.motto  {
+    font-style: italic;
+}
+.logo-img {
+    width: 10%;
+    margin-right: 2em;
+}
+/* BANNER */
+ #banner {
+     background-color:yellow;
+     border: 4px solid yellow;
+     color:navy;
+     text-align: center;
+     font-size: large;
+ }
+
+/* NAV  */
+
+nav a {
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FE9000;
+    background-color: white;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+}
+
 .navigation {
-list-style:none;
-padding: 0;
-border: 3px #3C6997;
-border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    border: 3px #3C6997;
+    border-radius: 4px;
 }
+
 .navigation li:first-child {
-display: block;
+    display: block;
 }
+
 .navigation li {
-display: none;}
+    display: none;
+}
 
 nav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #3C6997;
-flex-direction: column;
-text-align: center;}
-
-.responsive li {
-display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3C6997;
+    flex-direction: column;
+    text-align: center;
 }
 
+.responsive li {
+    display: block;
+}
+
+/* PRESTON */
+
+/* info pic and summary */
+.infobox {
+    padding: .25rem;
+    border: solid black 1.5px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+}
+
+.infobox h2 {
+    color: white;
+}
+.infobox p {
+    color: navy;
+}
+.info-pic {
+    position: relative;
+}
+
+.townpic {
+    width: 100%;
+}
+
+.infobox {
+    position: absolute;
+	top: 25px;
+	left: 25px;
+	background: #FFDD4A;
+	border: 1px solid #FFDD4A;
+    border-radius: 2px;
+    padding: 0;
+    box-shadow:5px 5px 8px #3C6997;
+}
+
+/* FORECAST */
+.forecast {
+    display: none;
+    text-align: center;
+    margin: auto;
+}
+
+/* ARTICLE */
+.article {
+   display: inline-block;
+   padding: 15px;
+   border: 2px solid #3c6997;
+}
+.pizza-arc {
+    width: 50%;
+    float: left;
+}
+.pizzainfo {
+    display: flex;
+}
+
+
+/* CONTACT */
+.contact {
+    padding: 10px;
+    border: 2px solid #3c6997;
+    display: flex;
+}
+.map {  
+    width: 40%;
+    float: left;
+    padding-right: 100px;
+}
+.contactsoc {
+    flex-direction: column;
+}
+/* GALLERY*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    justify-content:center;
+    padding-left: 75px;
+    color: navy;
+    text-align: center;
+    width: 70%;
+    }
+.gallery img{
+    width: 100%;
+}
+figure {
+    background-color: white;
+}
+/* STORM CENTER FORMS */
+label{
+    color: white;
+}
+legend {
+    color: white;
+}
+.stormforms {
+display: flex;
+flex-direction: column;
+}
+/* HOME PAGE */
+.towns{
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    max-width: 100%;
+    justify-content: center;
+}
+.towns h2{
+    background-color: purple;
+}
+.towns img {
+    width: 100%;
+    padding: 10px;
+}
+section {
+    display: flex;
+    max-width: 300px;
+    border: 2px solid white;
+    align-items: center;
+    padding: 50px;
+}
+/* events */
+
+.eventfish  {  
+    border: 5px solid white;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    }
+.eventp {  
+    border: 5px solid white;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    }
+.eventsoda {  
+    border: 5px solid white;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    }
+/* Thank you! */
+.thankyou{
+    text-align: center;
+}
+
+/*footer */
+
+.front-footer {
+    color: white;
+    background-color: #3C6997;
+    border: 2px solid purple;
+    text-align: center;
+}
+.footer-link {
+    color: white;
+}
+
+#timework {
+    color: white;
+}
+
+.active a {
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+}

@@ -1,59 +1,125 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <title>Sweater Weather Site</title>
-     <meta name="description" content="W3 Weather Site Plan
+
+<head>
+  <meta charset="utf-8">
+  <title>Sweater Weather Site</title>
+  <meta name="description" content="Weather Site Plan
       for WDD230">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/storm-s.css">
-    <link rel="stylesheet" href="css/storm-m.css">
-    <link rel="stylesheet" href="css/storm-l.css">
-    <link rel="stylesheet" href="normalize.css">
-  </head>
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="pics/favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/storm-s.css">
+  <link rel="stylesheet" href="css/storm-m.css">
+  <link rel="stylesheet" href="css/storm-l.css">
+
+</head>
+
 <body>
-  
-<header>
-<img class="logo-img" src="weather icon.jpg" alt="logo"> 
-<h1>Sweater Weather Site Plan</h1>
-</header>
+  <div id="banner"></div>
 
-<nav>
-    <ul class="navigation responsive">
-        <li><a href = "#" onclick="toggleMenu()"> &#9776; Menu</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="lesson4/preston-4.html">Preston</a></li>
-        <li><a href="#">Soda Springs</a></li>
-        <li><a href="#">Fish Haven</a></li>
-        <li><a href="#">Storm Center</a></li>
-        <li><a href="#">Gallery</a></li>
+  <header>
+    <img class="logo-img" src="pics/weather-icon.jpg" alt="logo">
+    <div>
+    <h1>Sweater Weather Report</h1>
+    <p class="motto">Reports you can trust!</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul class="navigation ">
+      <li><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="preston.html">Preston</a></li>
+      <li><a href="soda-springs.html">Soda Springs</a></li>
+      <li><a href="fish-haven.html">Fish Haven</a></li>
+      <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
     </ul>
-</nav>
+  </nav>
 
-<main>
-<h2>Storm Center</h2>
-<h3>Report A Storm</h3>
-<form action="/action_page.php">
-  <label for="name">First name:</label><br>
-  <input type="text"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text"><br>
-  <label for="email">E-mail:</label>
-  <input type="text" ><br>
-  <label for="number">Phone Number</label>
-  <input type="text" placeholder="ex.1-949-123-4567" /><br>
-  <input type="submit" >
-</form> 
-         
-                
-</main>
- 
-<footer>
- <p class="front-footer"> &copy;<span id="year"></span>| Ezra Salgado | California  |
- <a class="footer-link" href="https://www.byui.edu/online">www.byui.edu/online </a>
- | Today's Date: <span id="timework">Date</span></p>
-<script src="storm.js"> </script>
-</footer>
+  <main>
+    <div class='content'>
+    <h2>Report a Storm</h2>
+    <div class="stormforms">
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Your Information</legend>
+            <label>Full Name* <input type="text" name="fname" required pattern=".{5,}"></label><br>
+            <label>Phone* <input type="tel" name="number" placeholder="ex. (208)123-4567" required></label><br>
+            <label>Zip Code*<input type="number" name="zipcode" required></label><br>
+            <label>Email <input type="email" name="email" placeholder="ex. hellothere@gmail.com"></label>
+            <legend>* are required</legend>
+        </fieldset>
+
+        <fieldset>
+            <legend>Storm Details</legend>
+            <label>Storm Date<input type="date" name="date"></label>
+            <br>
+            <label> Storm Type (View Here)
+                <input list="stormtypes" name="stormtype" id="stormtype"></label>
+                <datalist id="stormtypes">
+                    <option>Flash Flood</option>
+                    <option>Hail</option>
+                    <option>Hurricane</option>
+                    <option>Thunderstorm</option>
+                    <option>Tornado</option>
+                </datalist> <br>
+            
+
+            <label>Severity (from 1 to 10)<input type="range" id="severity" value="3" min="1" max="10" step="1"
+                        list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue"></span>
+                </label><br>
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+            
+
+            <label>Storm Region
+                <select name="region">
+                    <option>Select Region</option>
+                    <option value="fish-haven">Fish Haven</option>
+                    <option value="preston">Preston</option>
+                    <option value="soda-springs">Soda Springs</option>
+                </select></label>
+
+            <legend>Are you in danger?</legend>
+            <label><input type="radio" id="yes" name="danger" value="yes">Yes</label>
+            <label><input type="radio" id="maybe" name="danger" value="maybe">Maybe</label>
+            <label><input type="radio" id="no" name="danger" value="no">No</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Type in additional details</legend>
+            <label>
+                <textarea id="add-info" name="add-info"></textarea>
+            </label>
+        </fieldset>
+       <br>
+        <input type="submit" class="submit"></form>
+    </div>
+  </div>
+  </main>
+
+  <footer>
+    <p class="front-footer"> &copy;<span id="year"></span>| Ezra Salgado | California |
+      <a class="footer-link" href="https://www.byui.edu/online">www.byui.edu/online </a>
+      | Today's Date: <span id="timework">Date</span></p>
+    <script src="js/script.js"> </script>
+    <script src="js/lazyload.js"></script>
+  </footer>
 </body>
+
 </html>

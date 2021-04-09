@@ -1,0 +1,47 @@
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+            display: flex;
+            flex-direction: row;
+    }
+
+    .navigation li {
+            display: block;
+            flex: 1 1 auto;
+    }
+
+    .navigation a {
+            text-align: center;
+    }
+
+    .navigation li:first-child {
+            display: none;
+    }
+
+    .forecast{
+            display: table;
+            padding: 15px;
+    }
+
+    table {
+            display: table;
+            height: 4em;
+    }
+
+    td,
+    th {
+            width: 200px;
+            border: 2px solid white;
+            background-color: white;
+    }
+    /* GALLERY */
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        justify-content:center;}
+
+    /* HOME PAGE */
+   .towns{
+        display: flex;
+        flex-direction: row;    
+   }
